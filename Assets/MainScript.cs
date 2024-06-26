@@ -18,7 +18,7 @@ public class MainScript : MonoBehaviour
     public Text buttontext;
     int x;
     int y;
-
+    public GameObject panel1;
     void Start()
     {
         input.text = "";
@@ -87,6 +87,7 @@ public class MainScript : MonoBehaviour
         UnityEditor.SceneManagement.EditorSceneManager.LoadScene("SeleccionarJuegos");
     }
 
+    
 
 
 }
